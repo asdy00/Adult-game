@@ -1,0 +1,207 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: #1c1c1c;
+    padding: 15px 30px;
+    border-bottom: solid #333;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav li {
+    font-size: 18px;
+    margin: 10px;
+    height: 5px;
+}
+
+nav a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00ffe1;
+    text-shadow: 0 0 5px #00ffe1;
+}
+.fff {
+  text-align: center;
+  background-color: #1c1c1c;
+  text-shadow: 0 0 5px #00ffe1;
+  
+}
+  .ggg {
+    color: white;
+  
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #2e86de, #48c6ef);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Main Section */
+.game-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.game-card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+}
+
+.game-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.game-info {
+    padding: 1rem;
+}
+
+.game-info h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+    color: #2c3e50;
+}
+
+.game-info p {
+    margin-bottom: 0.5rem;
+}
+
+.game-info a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #2e86de;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.2s ease;
+}
+
+.game-info a:hover {
+    background-color: #1b4f72;
+}
+
+/* Genre Card Customization */
+.genre-card h2 {
+    font-size: 1.5rem;
+    color: #34495e;
+}
+
+.genre-card p {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.genre-card a {
+    background-color: #27ae60;
+}
+
+.genre-card a:hover {
+    background-color: #1e8449;
+}
+
+/* Footer */
+footer {
+    background: #ecf0f1;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    color: #555;
+    border-top: 1px solid #dcdde1;
+}
+
+.sinopsis {
+  margin: 10px;
+}
+
+.tab-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.tab-buttons button {
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: #1b4f72;
+  border: 2;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.tab-buttons button.active {
+  background-color: #48c6ef;
+}
+.genre-title {
+  text-align: center;
+}
+
+.tab-content {
+  margin: 10px;
+  display: none;
+  margin-top: 10px;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.game-photo {
+  max-width: 100%;
+  margin-right: 100%px;
+  border-radius: 100%px;
+}
+
+.cheat {
+  color: red;
+  margin: 20px;
+}
